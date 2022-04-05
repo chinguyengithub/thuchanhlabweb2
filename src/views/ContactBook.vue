@@ -130,16 +130,14 @@ export default {
         },
 
         goToAddContact() {
-            this.$router.push({ name: "contact.add" });
+            this.$router.push({ name: "AddContact" });
         },
     },
     mounted() {
         this.refreshList();
     },
-
 };
 </script>
-
 <style scoped>
 .page {
     text-align: left;
